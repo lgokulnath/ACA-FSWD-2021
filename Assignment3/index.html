@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Welcome</title>
+        <style>
+        body {
+            width: 50%;
+            max-width: 800px;
+            min-width: 480px;
+            margin: 0 auto;
+          }
+        
+        #d {
+            background-color:blue; 
+            color: white;
+        }
+</style>
+    </head>
+    <body bgcolor="yellow">
+        <h1 align = "center">JS Assignment</h1>
+    <fieldset>
+        <legend>Step 1:Token Generator</legend>
+        <div id = 'a'>
+            <button id="token">Get Token</button>
+            <p id='b'></p>
+        </div>
+    </fieldset>
+    <br>
+
+        <fieldset>
+            <legend>Step 2: Enter Personal Info</legend>
+            Name: <br> <input type = "text" id="Name" class="Name"><br><br>
+            Data: <br> <input type = "text" id="Data" class="Data"><br><br>
+            Token: <br> <input type = "text" id="Token" class="Token"><br><br>
+
+            <input type="submit" value = "Register" id="Register">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Display Info</legend>
+            Token: <br> <input type = "text" id = "token1" class="token1"><br><br>
+            <input type="submit" value="Display info" id="display_info">
+            <div id = "c">
+                <p id = "d"></p>
+            </div>
+        </fieldset>
+        <script src="script.js"></script>
+    </body>
+</html>  
